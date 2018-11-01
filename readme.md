@@ -1,7 +1,7 @@
 # git-first
 > Chrome Extension – Takes you to the first commit of a GitHub repository
 
-It adds a menu item under the right click whenever you are on any Github Repository page. Clicking it will take you to the first commit of the repository; allowing you to look at how it all started.
+Adds a menu item under the right click whenever you are on any Github Repository page. Clicking it will take you to the first commit of the repository; allowing you to look at how it all started.
 
 ## Install
 
