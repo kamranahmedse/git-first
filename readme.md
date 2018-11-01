@@ -1,5 +1,3 @@
-<img src="./screen.png" align="right" />
-
 # git-first
 > Chrome Extension – Takes you to the first commit of a GitHub repository
 
@@ -8,6 +6,8 @@ It adds a menu item under the right click whenever you are on any Github Reposit
 ## Install
 
 Install it from the [Chrome Web Store](https://chrome.google.com/webstore/detail/git-first/bkodimdeilmanedhmadkjickmfobpjde) or [manually](http://superuser.com/a/247654/6877)
+
+![](./screen.png)
 
 ## Contributions
 
