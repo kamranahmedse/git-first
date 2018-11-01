@@ -5,5 +5,16 @@
   "main": "index.js",
   "repository": "https://github.com/kamranahmedse/initial-commit",
   "author": "Kamran Ahmed <kamranahmed.se@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "webpack script.js --mode production -o dist/script.js && cp ./manifest.json dist"
+  },
+  "dependencies": {
+    "repo-first-commit": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  }
 }
