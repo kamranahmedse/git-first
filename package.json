@@ -1,0 +1,9 @@
+{
+  "name": "initial-commit",
+  "version": "1.0.0",
+  "description": "Takes you to initial commit of any GitHub repository",
+  "main": "index.js",
+  "repository": "https://github.com/kamranahmedse/initial-commit",
+  "author": "Kamran Ahmed <kamranahmed.se@gmail.com>",
+  "license": "MIT"
+}
