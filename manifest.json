@@ -1,8 +1,8 @@
 {
-  "name": "Initial Commit",
+  "name": "Git First",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Takes you to initial commit of any GitHub repository",
+  "description": "Takes you to first commit of any GitHub repository",
   "permissions": [
     "contextMenus",
     "activeTab"
@@ -13,7 +13,7 @@
     "128": "/icons/icon128.png"
   },
   "browser_action": {
-    "default_title": "Initial Commit",
+    "default_title": "Git First",
     "default_icon": "/icons/icon128.png"
   },
   "background": {
