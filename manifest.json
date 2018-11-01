@@ -4,7 +4,8 @@
   "manifest_version": 2,
   "description": "Takes you to initial commit of any GitHub repository",
   "permissions": [
-    "contextMenus"
+    "contextMenus",
+    "activeTab"
   ],
   "background": {
     "scripts": [
