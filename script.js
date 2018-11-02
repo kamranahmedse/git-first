@@ -8,9 +8,14 @@ import fetchFirstCommit from 'repo-first-commit';
 const loadFirstCommit = (info, tab) => {
   // Remove scheme and host from the URL
   const pageUrl = info.pageUrl.replace(/.+:\/\/(www\.)?github.com\/?/, '');
-  const [owner, repo, , sha] = pageUrl.split('/');
+  let [owner, repo, , sha] = pageUrl.split('/');
 
-  // Fetch the first commit
+  // Only these pages have a valid sha
+  if (!['commits', 'find', 'blob', 'commit'].includes(sha)) {
+    sha = null;
+  }
+
+  // Fetch the first commit and redirect
   fetchFirstCommit({ owner, repo, sha })
     .then(commit => {
       chrome.tabs.update(tab.id, {
