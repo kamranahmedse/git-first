@@ -8,10 +8,10 @@ import fetchFirstCommit from 'repo-first-commit';
 const loadFirstCommit = (info, tab) => {
   // Remove scheme and host from the URL
   const pageUrl = info.pageUrl.replace(/.+:\/\/(www\.)?github.com\/?/, '');
-  let [owner, repo, , sha] = pageUrl.split('/');
+  let [owner, repo, pre_sha, sha] = pageUrl.split('/');
 
   // Only these pages have a valid sha
-  if (!['commits', 'find', 'blob', 'commit'].includes(sha)) {
+  if (!['commits', 'find', 'blob', 'commit', 'tree'].includes(pre_sha)) {
     sha = null;
   }
 
