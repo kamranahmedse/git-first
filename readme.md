@@ -17,6 +17,8 @@ Feel free to submit pull requests, create issues or spread the word.
 
 MIT © [Kamran Ahmed](https://twitter.com/kamranahmedse)
 
+haider iqbal khan
+
 
 
 
